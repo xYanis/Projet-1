@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Image Slider using HTML CSS and JavaScript</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>  
+        <img src="Images/Logo.png" alt="Logo Mushroom" class="logo" />
+        <ul>
+            <li>The Mushrooms</li>
+        </ul>
+    </nav>
+    <h1>Bienvenue dans le monde des Champignons!</h1>
+    <h2>Bienvenue sur notre site de jeux en ligne, entièrement conçu avec HTML, CSS et JavaScript ! Rejoignez-nous et découvrez des heures de divertissement sans fin !</h2>
+
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+    <div class="container">
+        <div class="slide">
+            <div class="item" style="background-image: url(Images/Morpion.jpg);">
+                <div class="content">
+                    <div class="name">Morpion</div>
+                    <div class="des">Plongez-vous dans ce classique intemporel et défiez vos amis pour des parties palpitantes et pleines de suspense!</div>
+                    <button><a href="morpion.html">Go Morpion</a></button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/Pipopipette.png);">
+                <div class="content">
+                    <div class="name">Pipopipette</div>
+                    <div class="des">Testez votre précision et votre rapidité avec notre jeu de pipopipette! Qui sera le plus rapide?</div>
+                    <button><a href="pipopipette.html">Go Pipopinette</a></button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/Maze.jpg);">
+                <div class="content">
+                    <div class="name">Labyrinthe</div>
+                    <div class="des">Perdez-vous dans notre labyrinthe et trouvez la sortie avant vos adversaires! Un défi pour les esprits les plus vifs!</div>
+                    <button><a href="labyrinthe.html">Go Maze</a></button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/Sudoku.jpg);">
+                <div class="content">
+                    <div class="name">Sudoku</div>
+                    <div class="des">Plongez dans le monde des chiffres avec notre sudoku! Résolvez les grilles et devenez le maître des casse-têtes!</div>
+                    <button><a href="sudoku.html">Go Sudoku</a></button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/Snake.jpg);">
+                <div class="content">
+                    <div class="name">Snake</div>
+                    <div class="des">Glissez et évitez les obstacles dans notre jeu de serpent! Combien de temps tiendrez-vous avant de vous mordre la queue!</div>
+                    <button><a href="snake.html">Go Snake</a></button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(Images/Memory.jpg);">
+                <div class="content">
+                    <div class="name">Memory</div>
+                    <div class="des">Mettez votre mémoire à l'épreuve avec notre jeu de mémoire! Retrouvez les paires et devenez le champion des souvenirs!</div>
+                    <button><a href="memory.html">Go Memory</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
